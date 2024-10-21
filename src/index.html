@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <style>
+    #assignment {
+        background-image: linear-gradient(to bottom right, #55067c 50%, #ffffff 50%);
+    }
+
+  .rotate-card {
+    transition: transform 2s ease;
+  }
+
+  .rotate-card:hover {
+    transform: rotateY(360deg);
+  }
+  </style>
+</head>
+<body class="m-0 p-0">
+    <div id="assignment" class="w-full h-screen flex justify-center flex-grow items-center ">
+        <div class="h-4/5 bg-transparent w-full mx-16 ">
+            <div class="mb-12">
+                <h1 class="font-semibold h-16 w-50 text-5xl text-white">OUR SERVICES</h1>
+            </div>
+            <div id="service-container" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-7">
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script> 
+</body>
+</html>
